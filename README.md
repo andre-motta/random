@@ -1,7 +1,7 @@
 <a name=top>
 
-<a href="http://tiny.cc/se21"><img  width=700
-  src="docs/img/RandomProjects.png"></a>
+<a href="https://github.com/andre-motta/random"><img  width=700
+  src="https://github.com/andre-motta/random/blob/master/docs/img/banner.png"></a>
 <hr>
 <p>
 &nbsp;<a href="https://tiny.cc/se21">home</a> ::
