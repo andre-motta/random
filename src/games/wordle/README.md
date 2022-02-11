@@ -23,9 +23,7 @@
 
 Wordle is the viral word game that was recently acquired by the New York Times for a figure in the low millions.
 
-<p style="text-align: center;">
-<img src="(https://www.cnet.com/a/img/SW9w37YfQPG8QgA8voATSKc22nM=/1092x0/2022/01/29/c4d41b24-8a7d-4413-844e-188b30a2bfa0/wordle-2022-030.jpg" width="582" height="388">
-</p>
+<img src="https://www.cnet.com/a/img/SW9w37YfQPG8QgA8voATSKc22nM=/1092x0/2022/01/29/c4d41b24-8a7d-4413-844e-188b30a2bfa0/wordle-2022-030.jpg" width="582" height="388">
 
 The game gives players six chances to guess a randomly selected five-letter word. As shown above, if you have the right letter in the right spot, it shows up green. A correct letter in the wrong spot shows up yellow. A letter that isn't in the word in any spot shows up gray. 
 
