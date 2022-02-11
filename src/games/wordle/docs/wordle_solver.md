@@ -1,6 +1,5 @@
 <head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>wordle_solver.py</title>
 </head>
 <body>
 <div id='container'>
