@@ -48,6 +48,13 @@ Documentation for the project can be found [here](docs/wordle_solver.md).
 *This documentation was generated with the help of [Pycco](https://github.com/pycco-docs/pycco)*
 
 
+## Datasets
+
+* For playing the original Wordle use the file under [data/words.txt](data/words.txt)
+* For playing the portuguese version of Wordle, `Termo` use the file under [data/palavras.txt](data/palavras.txt)
+
+
+
 ## Languages
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
