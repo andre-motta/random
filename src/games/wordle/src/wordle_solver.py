@@ -41,11 +41,19 @@ def main():
     # Get the words file
     dictionary_file = sys.argv[1]
 
-    print("STARTING GUESS = ALERT")
 
     with open(dictionary_file,'r') as file:
         words = file.readlines()
 
+    WORD_LEN = len(words[0])
+
+    def startingGuess():
+        if 'words.txt' in dictionary_file:
+            print("STARTING GUESS = ALERT")
+        if 'palavras.txt' in dictionary_file:
+            print("STARTING GUESS = AIOES")	
+
+    startingGuess()
     # Print the avaiable commands
     print("Available commands:")
     print("\ta <letter> <position> - informs a letter is part of the word and is in the correct position")
@@ -87,7 +95,7 @@ def main():
             excluded_letters = []
             position_letters = []
             notposition_letters = []
-            print("STARTING GUESS = ALERT")
+            startingGuess()
             continue
 
         # Clear command
@@ -161,7 +169,7 @@ def main():
 
             # Print the current known letters
             print("What we know:", end=" ")
-            for i in range(5):
+            for i in range(WORD_LEN):
                 if i in [x[1] for x in position_letters]:
                     print(next(x[0] for x in position_letters if x[1] == i), end="")
                 else:
@@ -221,7 +229,7 @@ def main():
                 position_letters = []
                 notposition_letters = []
 
-                print("STARTING GUESS = ALERT")
+                startingGuess()
 
             # If there are multiple words that match the current state
             # Print the suggestions in descending order of entropy score
