@@ -53,6 +53,13 @@ Documentation for the project can be found [here](docs/wordle_solver.md).
 * For playing the original Wordle use the file under [data/words.txt](data/words.txt)
 * For playing the portuguese version of Wordle, `Termo` use the file under [data/palavras.txt](data/palavras.txt)
 
+## Requirements
+
+* Python3 installed
+
+### Usage
+
+* `python worlde_solver.py <path_to_words_file>`
 
 
 ## Languages
